@@ -15,7 +15,7 @@ export default function loggedOut(container) {
     const menuMobileSpan2 = createElement('span', 'flex w-5 mb-1 relative bg-primary rounded-full h-[2px]');
     const menuMobileSpan3 = createElement('span', 'flex w-5 mb-1 relative bg-primary rounded-full h-[2px]');
 
-    const dropDownMenu = createElement('div', 'hidden mx-auto absolute top-[65px] lg:top-[80px] xl:top-[120px] bg-white border w-2/3 md:w-1/3 px-12 py-8 rounded');
+    const dropDownMenu = createElement('div', 'hidden mx-auto absolute top-[65px] lg:top-[80px] xl:top-[120px] bg-white border w-2/3 md:w-1/3 px-12 py-8 rounded z-10');
     dropDownMenu.id = "dropDownMobile";
 
     const navigation = createElement('div', 'flex flex-col gap-3');

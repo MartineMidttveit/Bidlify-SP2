@@ -3,7 +3,9 @@ import displayError from "../../../helpers/displayError.js";
 
 export default async function searchListings(title) {
     try {
-        const url = config.BaseURL + `auction/listings/search?q=${title}`;
+        const url = config.BaseURL + `auction/listings/search?q=${title}&_bids=true&_seller=true`;
+
+        console.log(url)
 
         const response = await fetch(url, {
             method: "GET",
@@ -24,7 +26,8 @@ export default async function searchListings(title) {
 
         const data = await response.json();
 
-        return data.listings; 
+       
+        return data.data; 
     } catch (err) {
         console.error(err);
         throw err;
