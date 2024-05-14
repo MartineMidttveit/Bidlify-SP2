@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="Manage your auctions effortlessly. View active and expired listings, bid history & more on your profile page.">
+    <meta name="description" content="Manage your auctions effortlessly. View active and expired listings, bid history & more on your profile page.">
     <title>Bidlify | Profile</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,7 +94,6 @@
 <!-- YOUR LISTINGS -->
 
     <div class="w-full mb-6 mt-4 md:my-6 xl:rounded-lg xl:px-12 xl:py-10 2xl:py-12 2xl:px-16 xl:bg-light">
-
         <div class="flex justify-between items-center mt-4 mb-6 xl:mt-3 xl:mb-8">
             <div class="flex gap-3 items-center">
                 <h1 class="font-medium 2xl:font-semibold md:text-lg lg:text-xl md:mb-1" id="listingGenreTitle" aria-label="Listing sorting titles"></h1>
@@ -118,6 +117,7 @@
             </div>
         </div>
         <div id="bidHistory" class="col-span-1 md:col-span-2 2xl:col-span-3"></div>
+    </div>
 </main>
 
 <!--FOOTER-->
@@ -155,7 +155,7 @@
 
             <div class="flex items-center mt-2 mb-3 lg:mb-6 gap-2 lg:gap-3">
                 <input type="text" placeholder="Email address" class="border rounded h-8 md:h-10 lg:h-12 w-full pl-3 text-sm lg:text-base" aria-label="Sign up for newsletter">
-                <button class="bg-primary text-white min-w-10 h-8 md:h-10 lg:min-w-12 lg:h-12 rounded flex items-center justify-center">
+                <button class="bg-primary text-white min-w-10 h-8 md:h-10 lg:min-w-12 lg:h-12 rounded flex items-center justify-center" disabled aria-label="Sign up for newsletter button">
                     <i class="fa-regular fa-envelope text-sm md:text-base"></i>
                 </button>
             </div>
@@ -238,7 +238,7 @@
         </div>
         
         <figure class="bg-grey w-full rounded flex justify-center p-5 mb-1 md:mb-3">
-            <img src="" alt="" class="rounded-full h-56 w-56 sm:h-64 sm:w-64 md:h-72 md:w-72 xl:h-80 xl:w-80 object-cover" id="editImage">
+            <img src="#" alt="" class="rounded-full h-56 w-56 sm:h-64 sm:w-64 md:h-72 md:w-72 xl:h-80 xl:w-80 object-cover" id="editImage">
         </figure>
 
         <form class="flex flex-col">
