@@ -1,0 +1,23 @@
+{
+  "name": "bidlify-sp2",
+  "version": "0.0.1",
+  "description": "An auction website called Bidlify",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier -w src/**/*.js",
+    "build": "npx tailwindcss build -o src/css/tailwind.css",
+    "watch": "npx tailwindcss build -w -o src/css/tailwind.css"
+  },
+  "keywords": [
+    "Bidlify",
+    "Auction",
+    "Auction website"
+  ],
+  "author": "Martine Midttveit",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.3",
+    "live-server": "^1.2.2"
+  }
+}
