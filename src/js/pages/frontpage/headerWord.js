@@ -13,14 +13,14 @@ export default function headerWord() {
     ];
 
     const colors = [
-        "#F28482", // Red
-        "#FCD34D", // Yellow
+        "#D56776", // Red
+        "#3B61BA", // Yellow
+        "#5D897E", // Green
+        "#D56776", // Red
+        "#3B61BA", // Yellow
         "#84A59D", // Green
-        "#F28482", // Red
-        "#FCD34D", // Yellow
-        "#84A59D", // Green
-        "#F28482", // Red
-        "#FCD34D", // Yellow
+        "#D56776", // Red
+        "#3B61BA", // Yellow
         "#84A59D", // Green
     ];
  
