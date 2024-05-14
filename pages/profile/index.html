@@ -81,14 +81,16 @@
 
             <div class="border-b my-5 md:hidden"></div>
 
-            <select name="sort-by" class="border rounded px-4 py-2 outline-none w-full text-center text-sm lg:text-base xl:hidden" id="sortListingsMobile">
-                <option value="Active" selected>Active listings</option>
-                <option value="Expired">Expired listings</option>
-                <option value="Sold">Sold listings</option>
-                <option value="BidHistory">Bid history</option>
-                <option value="Won">Won auctions</option>  
-            </select>
-        </div>
+            <div class="relative w-full xl:hidden">
+                <i class="fa-solid fa-chevron-down absolute right-4 bottom-2 text-sm"></i>
+                <select name="sort-by" class="border rounded px-4 py-2 outline-none w-full text-center text-sm 2xl:text-base" id="sortListingsMobile">
+                    <option value="Active" selected>Active listings</option>
+                    <option value="Expired">Expired listings</option>
+                    <option value="Sold">Sold listings</option>
+                    <option value="BidHistory">Bid history</option>
+                    <option value="Won">Won auctions</option>  
+                </select>
+            </div>
     </section>
 
 <!-- YOUR LISTINGS -->
@@ -100,13 +102,16 @@
                 <span class="text-gray-500 text-sm lg:text-base lg:font-medium" id="listingCount"></span>
             </div>
 
-            <select name="sort-by" class="border rounded px-3 py-2 2xl:py-3 outline-none w-64 hidden xl:block" id="sortListingsDesktop" aria-label="Sort the user listings desktop">
-                <option value="Active" selected>Active listings</option>
-                <option value="Expired">Expired listings</option>
-                <option value="Sold">Sold listings</option>
-                <option value="BidHistory">Bid history</option>
-                <option value="Won">Won auctions</option> 
-            </select>
+            <div class="relative hidden xl:block">
+                <i class="fa-solid fa-chevron-down absolute right-3 bottom-3 text-sm"></i>
+                <select name="sort-by" class="border rounded px-3 py-2 2xl:py-3 outline-none w-64" id="sortListingsDesktop" aria-label="Sort the user listings desktop">
+                    <option value="Active" selected>Active listings</option>
+                    <option value="Expired">Expired listings</option>
+                    <option value="Sold">Sold listings</option>
+                    <option value="BidHistory">Bid history</option>
+                    <option value="Won">Won auctions</option> 
+                </select>
+            </div>
         </div>
 
 <!-- LISTINGS -->

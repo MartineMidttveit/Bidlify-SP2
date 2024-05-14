@@ -660,6 +660,14 @@ video {
   top: 75px;
 }
 
+.right-1 {
+  right: 0.25rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -2143,6 +2151,14 @@ video {
 @media (min-width: 1280px) {
   .xl\:top-\[120px\] {
     top: 120px;
+  }
+
+  .xl\:right-3 {
+    right: 0.75rem;
+  }
+
+  .xl\:bottom-3 {
+    bottom: 0.75rem;
   }
 
   .xl\:my-3 {

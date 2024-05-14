@@ -11,6 +11,12 @@ body {
     user-select: none;
 }
 
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 /* DROPDOWN */ 
 
 #dropDown {

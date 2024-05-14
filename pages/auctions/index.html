@@ -114,12 +114,15 @@
                     <button class="bg-secondary px-3 lg:px-6 rounded py-2.5 lg:py-3 text-sm lg:text-base h-10 xl:h-12 flex items-center justify-center" id="searchButton">Search</button>
                 </div>
 
-                <select name="sortBy" id="sortBy" class="text-sm xl:text-base border rounded px-3 py-2 outline-none h-10 w-full sm:w-64 xl:h-12" aria-label="Sort listings">
-                    <option value="Latest">Latest listings</option>
-                    <option value="Ending">Ending soon</option>
-                    <option value="TitleAZ">Title A-Z</option>
-                    <option value="TitleZA">Title Z-A</option>
-                </select>
+                <div class="relative sm:w-64">
+                    <i class="fa-solid fa-chevron-down absolute right-3 bottom-3 text-sm"></i>
+                    <select name="sortBy" id="sortBy" class="text-sm xl:text-base border rounded px-3 py-2 outline-none h-10 w-full sm:w-64 xl:h-12" aria-label="Sort listings">
+                        <option value="Latest">Latest listings</option>
+                        <option value="Ending">Ending soon</option>
+                        <option value="TitleAZ">Title A-Z</option>
+                        <option value="TitleZA">Title Z-A</option>
+                    </select>
+                </div>
             </div>
 
             <!--LISTINGS-->
