@@ -36,14 +36,14 @@ function createHeaderLoggedIn(profile) {
     profileAvatar.alt = profile.avatar.alt;
     profileAvatar.setAttribute("id", "headerAvatar")
 
-    const dropDownBtn = createElement('button', 'hidden absolute bottom-0 right-0 h-6 w-6 bg-light rounded-full border xl:flex items-center justify-center hover:bg-secondary hover:border-transparent duration-300');
+    const dropDownBtn = createElement('button', 'hidden absolute bottom-0 right-0 h-6 w-6 bg-light rounded-full border xl:flex items-center justify-center hover:bg-secondary hover:border-transparent hover:text-white duration-300');
     dropDownBtn.id = "dropDownBtn";
 
     dropDownBtn.addEventListener('click', dropDownMenu)
 
-    const dropDownIcon = createElement('i', 'fa-solid fa-chevron-down text-xs duration-300');
+    const dropDownIcon = createElement('i', 'fa-solid fa-chevron-down text-xs duration-300 hover:text-white');
 
-    const notifications = createElement('div','h-12 w-12 md:w-12 lg:w-14 lg:h-14 xl:w-16 xl:h-16 rounded-full xl:ml-2 flex items-center justify-center border hover:bg-secondary hover:border-transparent duration-300');
+    const notifications = createElement('div','h-12 w-12 md:w-12 lg:w-14 lg:h-14 xl:w-16 xl:h-16 rounded-full xl:ml-2 flex items-center justify-center border hover:bg-secondary hover:border-transparent hover:text-white duration-300');
     const bellIcon = createElement('i', 'fa-solid fa-bell');
 
     const dropDownHamburger = createElement('div', 'xl:hidden ml-2 menu-mobile float-right select-none flex flex-col');

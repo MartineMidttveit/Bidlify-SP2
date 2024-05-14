@@ -37,7 +37,7 @@ export default function dropDown(profile) {
     yourProfile.href = "/pages/profile";
 
     const messages = createElement('p', 'flex justify-between items-center hover:font-medium duration-100 xl:mb-6', 'Messages');
-    const messagesCount = createElement('p', 'bg-secondary text-sm px-1.5 py-1 rounded', '3');
+    const messagesCount = createElement('p', 'bg-secondary text-sm px-1.5 py-1 rounded text-white', '3');
 
     messages.append(messagesCount);
 

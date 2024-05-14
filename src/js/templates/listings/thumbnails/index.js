@@ -23,7 +23,7 @@ export default function thumbnail(data) {
     const currentBid = createElement("p", "pb-4 md:pb-5 text-xs font-medium md:font-normal sm:text-sm lg:text-base 2xl:text-lg", "Current bid: ");
     const bidAmount = createElement("span", "current-bid", data.bids.length > 0 ? data.bids[data.bids.length - 1].amount + " credits": 0 + " credits");
     
-    const viewListing = createElement("a", "border rounded py-2 md:py-3 hover:bg-secondary hover:border-secondary text-xs md:text-sm xl:text-base duration-300 w-full flex items-center justify-center", "View listing");
+    const viewListing = createElement("a", "border rounded py-2 md:py-3 hover:bg-secondary hover:text-white hover:border-transparent text-xs md:text-sm xl:text-base duration-300 w-full flex items-center justify-center", "View listing");
     viewListing.href = `/pages/listing/?id=${data.id}`
     
     clickListing.append(listingImage);

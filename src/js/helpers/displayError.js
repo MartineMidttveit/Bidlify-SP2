@@ -26,7 +26,7 @@ export default function displayError(message) {
       )
 
       const errorIcon = createElement(
-        "i", "fa-solid fa-xmark bg-secondary w-10 h-10 rounded-full flex items-center justify-center", ""
+        "i", "fa-solid fa-xmark bg-secondary text-white w-10 h-10 rounded-full flex items-center justify-center", ""
       )
 
       const errorMessage = createElement(

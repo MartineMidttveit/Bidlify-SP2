@@ -13,15 +13,15 @@ export default function headerWord() {
     ];
 
     const colors = [
-        "#D0796B", // Red
-        "#3B61BA", // Yellow
-        "#5D897E", // Green
-        "#D0796B", // Red
-        "#3B61BA", // Yellow
-        "#84A59D", // Green
-        "#D0796B", // Red
-        "#3B61BA", // Yellow
-        "#84A59D", // Green
+        "#932F3A", 
+        "#485867", 
+        "#C18D5F", 
+        "#932F3A", 
+        "#485867", 
+        "#C18D5F", 
+        "#932F3A", 
+        "#485867", 
+        "#C18D5F", 
     ];
  
     let index = 0;
