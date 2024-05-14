@@ -83,7 +83,7 @@
         <h1 class="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold mb-4 2xl:mb-6">Register.</h1>
         <p class="leading-relaxed text-sm xl:text-base 2xl:text-lg w-full xl:w-5/6 2xl:w-3/4">Welcome to Bidlify - your premier auction marketplace. Buy, sell, and explore thousands of unique items effortlessly. Register and unleash the bidding frenzy!</p>
 
-        <form action="" id="registrationForm" class="w-full xl:w-5/6 2xl:w-3/4 mx-auto lg:mx-0 flex flex-col xl:pr-10 2xl:pr-16 mt-8 gap-5 overflow-y-auto scroll-container">
+        <form action="register" id="registrationForm" class="w-full xl:w-5/6 2xl:w-3/4 mx-auto lg:mx-0 flex flex-col xl:pr-10 2xl:pr-16 mt-8 gap-5 overflow-y-auto scroll-container">
             
             <div class="flex flex-col">
                 <label for="name" class="2xl:text-lg text-gray-700 mb-3">Name:</label>
@@ -92,7 +92,7 @@
             
             <div class="flex flex-col">
                 <label for="createAvatar" class="2xl:text-lg text-gray-700 mb-3">Profile image:</label>
-                <input type="createAvatar" id="createAvatar" name="createAvatar" class="py-1 px-3 rounded-sm border h-8 md:h-10 outline-none text-sm 2xl:text-base">
+                <input type="url" id="createAvatar" name="createAvatar" class="py-1 px-3 rounded-sm border h-8 md:h-10 outline-none text-sm 2xl:text-base">
             </div>
             
             <figure class="bg-grey flex items-center justify-center my-3 rounded">
@@ -132,7 +132,7 @@
             <div class="hidden text-sm font-medium text-red-600" id="incorrectPassword">The passwords do not match.</div>
 
             <div class="flex-col mt-2" id="passwordRequirements">
-                <h3 class="text-gray-600 mb-2">Password must contain:</h3>
+                <h2 class="text-gray-600 mb-2">Password must contain:</h2>
                 <div class="flex text-gray-700 gap-4 text-sm 2xl:text-base items-center">
                     <span id="passwordLengthIcon" class="h-6 w-6 rounded-full bg-gray-500 flex items-center justify-center">
                         <i class="fa-solid fa-check text-white text-sm"></i>
