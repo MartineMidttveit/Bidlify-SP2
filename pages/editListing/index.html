@@ -161,7 +161,7 @@
     <div class="modal-container bg-white w-full md:w-2/3 lg:w-1/2 2xl:w-1/4 2xl:min-w-[40rem] relative h-screen md:rounded-md md:h-fit flex items-center">
         <form class="modal-content px-6 sm:p-8 md:p-16" id="login-form">
             
-            <button class="flex items-center justify-center absolute p-6 right-0 top-0" id="closeBtn" type="button">
+            <button class="flex items-center justify-center absolute p-6 right-0 top-0" id="closeBtn" type="button" aria-label="Close login-modal icon">
                 <i class="fa-solid fa-xmark text-xl text-gray-700 hover:text-primary duration-300"></i>                      
             </button>
 
@@ -177,7 +177,7 @@
                 <label for="password" class="font-medium text-sm md:text-base">Your password:</label>
                 <input type="password" id="password" name="password" class="w-full border rounded h-12 outline-none pl-3 passwordInput">
 
-                <button class="absolute bottom-3 right-4 toggleButton" type="button">
+                <button class="absolute bottom-3 right-4 toggleButton" type="button" aria-label="Click the eye to view password">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
@@ -200,7 +200,7 @@
                 <button class="bg-secondary text-white px-4 py-2 md:py-3 md:px-6 rounded mt-8 text-sm md:text-base">Log in</button>
             </div>
             
-            <p class="mt-8">Don't have an account yet? Register <a href="/pages/register/" class="underline font-medium text-secondary">here.</a></p>
+            <p class="mt-8">Don't have an account yet? Register <a href="/pages/signup/index.html" class="underline font-medium text-secondary">here.</a></p>
         </form> 
     </div>
 </div>
