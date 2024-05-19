@@ -10,7 +10,7 @@ export default function loggedOut(container) {
     loginBtn.id = "openLogin";
 
     const dropDownHamburger = createElement('div', 'xl:hidden ml-2 float-right select-none flex flex-col menu-mobile');
-    const menuMobile = createElement('div', 'menu-hamburger');
+    const menuMobile = createElement('button', 'menu-hamburger');
     const menuMobileSpan1 = createElement('span', 'flex w-5 mb-1 relative bg-primary rounded-full h-[2px]');
     const menuMobileSpan2 = createElement('span', 'flex w-5 mb-1 relative bg-primary rounded-full h-[2px]');
     const menuMobileSpan3 = createElement('span', 'flex w-5 mb-1 relative bg-primary rounded-full h-[2px]');

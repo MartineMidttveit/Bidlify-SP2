@@ -47,7 +47,7 @@ function createHeaderLoggedIn(profile) {
     const bellIcon = createElement('i', 'fa-solid fa-bell');
 
     const dropDownHamburger = createElement('div', 'xl:hidden ml-2 menu-mobile float-right select-none flex flex-col');
-    const menuMobile = createElement('div', 'menu-hamburger');
+    const menuMobile = createElement('button', 'menu-hamburger');
     const menuMobileSpan1 = createElement('span', 'flex w-5 mb-1 relative bg-primary rounded-full h-[2px]');
     const menuMobileSpan2 = createElement('span', 'flex w-5 mb-1 relative bg-primary rounded-full h-[2px]');
     const menuMobileSpan3 = createElement('span', 'flex w-5 mb-1 relative bg-primary rounded-full h-[2px]');
