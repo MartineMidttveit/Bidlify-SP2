@@ -6,15 +6,15 @@ My goal was to create an organized website that is easy to navigate, with a clea
 The project was made based on the requirements, but I have also added additional features that I consider important for such a website.
 
 ## REQUIREMENTS
-A user with a stud.noroff.no email may register
-A registered user may login
-A registered user may logout
-A registered user may update their avatar
-A registered user may view their total credit
-A registered user may create a Listing with a title, deadline date, media gallery and description
-A registered user may add a Bid to another user’s Listing
-A registered user may view Bids made on a Listing
-An unregistered user may search through Listings
+- A user with a stud.noroff.no email may register
+- A registered user may login
+- A registered user may logout
+- A registered user may update their avatar
+- A registered user may view their total credit
+- A registered user may create a Listing with a title, deadline date, media gallery and description
+- A registered user may add a Bid to another user’s Listing
+- A registered user may view Bids made on a Listing
+- An unregistered user may search through Listings
 
 ## BUILT WITH
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
