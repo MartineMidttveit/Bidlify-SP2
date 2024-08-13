@@ -9,6 +9,22 @@ export default function thumbnail(data) {
     clickListing.href = `/pages/listing/?id=${data.id}`;
     
     const listingImage = createElement("img", "rounded w-full object-cover hover:opacity-90 duration-100 h-80 md:h-96 xl:h-80 2xl:h-96");
+
+    // console.log("test")
+    // if (data.media[0]) {
+    //     console.log("test2")
+    //     try {
+    //         const validUrl = new URL(data.media[0].url)
+    //         console.log(validUrl)
+          
+    //           }
+    //           catch (err) {
+    //             console.log(err)
+    //             data.media[0].url = `/src/images/placeholder/placeholder${randomNumber(21)}.jpg`
+            
+    //           }
+    // }
+
     listingImage.src = data.media[0]?.url ? data.media[0]?.url : `/src/images/placeholder/placeholder${randomNumber(21)}.jpg` ;
     listingImage.alt = data.media[0]?.alt ? data.media[0].alt : `${data.title} - a bidlify listing`;
     
