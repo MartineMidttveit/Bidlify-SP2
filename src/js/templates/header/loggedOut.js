@@ -6,7 +6,7 @@ export default function loggedOut(container) {
     const registerBtn = createElement("a", "font-semibold hover:text-secondary duration-100 hidden xl:block", "Register");
     registerBtn.href = "/pages/register/"
     const span = createElement("span", "hidden xl:block", "or");
-    const loginBtn = createElement("button", "border px-6 py-3 rounded hover:bg-secondary hover:border-transparent duration-300 hidden xl:block hover:text-white", "Log in");
+    const loginBtn = createElement("button", "border px-6 py-3 rounded hover:bg-secondary hover:border-transparent duration-300 hidden xl:block", "Log in");
     loginBtn.id = "openLogin";
 
     const dropDownHamburger = createElement('div', 'xl:hidden ml-2 float-right select-none flex flex-col menu-mobile');

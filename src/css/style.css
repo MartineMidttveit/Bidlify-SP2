@@ -82,7 +82,7 @@ select{
 /* BUTTONS AND A-ELEMENTS */
 
 .view-all {
-    border-bottom: 2px solid #932F3A;
+    border-bottom: 2px solid #F28482;
 }
 
 /* BORDERS */
@@ -100,7 +100,7 @@ select{
 }
 
 hr {
-    border: 1px solid #932F3A;
+    border: 1px solid #F28482;
 }
 /* RELATED TO JS */
 

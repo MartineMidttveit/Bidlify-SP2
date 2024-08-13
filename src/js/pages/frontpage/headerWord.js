@@ -13,15 +13,15 @@ export default function headerWord() {
     ];
 
     const colors = [
-        "#932F3A", 
-        "#485867", 
-        "#C18D5F", 
-        "#932F3A", 
-        "#485867", 
-        "#C18D5F", 
-        "#932F3A", 
-        "#485867", 
-        "#C18D5F", 
+        "#F28482", 
+        "#7CA59B", 
+        "#CAA429", 
+        "#F28482", 
+        "#7CA59B", 
+        "#CAA429", 
+        "#F28482", 
+        "#7CA59B", 
+        "#CAA429", 
     ];
  
     let index = 0;
