@@ -1945,6 +1945,10 @@ video {
     margin-right: 1rem;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:h-10 {
     height: 2.5rem;
   }
