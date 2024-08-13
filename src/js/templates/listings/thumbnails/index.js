@@ -10,18 +10,17 @@ export default function thumbnail(data) {
     
     const listingImage = createElement("img", "rounded w-full object-cover hover:opacity-90 duration-100 h-80 md:h-96 xl:h-80 2xl:h-96");
 
-    console.log("test")
     if (data.media[0]) {
-        console.log("test2")
         try {
             const validUrl = new URL(data.media[0].url)
             console.log(validUrl)
-          
+            if (validUrl.host == "cdn.discordapp.com" || validUrl.host == "url.com" || validUrl.host == "media.istockphoto.com") {
+        data.media[0].url = `/src/images/placeholder/placeholder${randomNumber(21)}.jpg`
+            }
               }
               catch (err) {
                 console.log(err)
                 data.media[0].url = `/src/images/placeholder/placeholder${randomNumber(21)}.jpg`
-            
               }
     }
 
